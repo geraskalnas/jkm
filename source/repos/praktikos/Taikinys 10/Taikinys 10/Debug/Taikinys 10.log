@@ -1,0 +1,4 @@
+﻿  Source.cpp
+z:\source\repos\praktikos\taikinys 10\taikinys 10\source.cpp(12): warning C4305: 'initializing': truncation from 'double' to 'float'
+z:\source\repos\praktikos\taikinys 10\taikinys 10\source.cpp(27): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Taikinys 10.vcxproj -> Z:\source\repos\praktikos\Taikinys 10\Debug\Taikinys 10.exe

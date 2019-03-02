@@ -1,0 +1,70 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* SMALL BP / DEFAULT */
+.body-content a.noDecor:visited {
+    border-bottom: 0;
+}
+.body-content a.noDecor {
+    text-decoration: none;
+    border-bottom: 0;
+}
+body:not(.cq-wcm-edit) #wp-banner {
+    height: 278px;
+}
+.fixbadge {
+    min-width:75px;
+    max-width:75px;
+}
+.legal-container1 {
+    margin-bottom:12px; 
+    font-size: 1.4rem;
+}
+.legal-container2 {
+    font-size: 1.4rem;
+    padding-bottom: 20px;
+}
+.wd-bbw-1, .wd-bbw-1-sm {
+    border-color: #DADADA !important;
+}
+.wp-advice-panel svg{
+    height:80px;
+    max-width:80px;
+}
+.wp-advice-panel a, .wp-advice-panel a:hover, .wp-advice-panel a:visited, .wp-advice-panel a:active {
+    color: #444;
+    font-size: 16px;
+    font-weight: 700;
+}
+.wp-table {
+    display: table;
+}
+.wp-table .wp-table-cell {
+    display: table-cell;	
+}
+.wp-table .wp-table-img {
+    width: 100px;
+    height: 100px;
+}
+.wp-table .wp-text {
+    vertical-align: top;
+}
+.wp-table .wp-text p {
+margin: 0 0 0 10px;
+}
+.edu-button-logged {
+    margin-bottom: 32px;
+}
+
+                             
+/* TABLET */
+@media (min-width: 40.063em) {
+    .wp-table .wp-table-img {
+        width: 50px;
+        height: 50px;
+        margin-right: 10px;
+		}
+}
+/* DESKTOP */
+@media only screen and (min-width: 64.063em) {
+}

@@ -1,0 +1,23 @@
+justify-content:
+	flex-start flex-end center space-between space-around
+	x asis
+align-items:
+	flex-start flex-end center baseline stretch
+	y asis
+flex-direction:
+	row row-reverse column column-reverse
+	apvertimas ir kryptis
+order:
+	-0+
+	svarbumas
+align-self:
+	flex-start flex-end center baseline stretch
+	align items parinktis konkreciam elementui
+flex-wrap:
+	nowrap wrap wrap-reverse
+	perekelia i eilutes
+flex-flow:
+	dir+wrap parinktys
+align-content:
+	flex-start flex-end center space-between space-around stretch
+	tas pats kaip align-items bet pakeicia eiluciu isdestyma

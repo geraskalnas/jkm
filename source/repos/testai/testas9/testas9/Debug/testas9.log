@@ -1,0 +1,4 @@
+﻿  Source.cpp
+z:\source\repos\testas9\testas9\source.cpp(14): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+z:\source\repos\testas9\testas9\source.cpp(28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  testas9.vcxproj -> Z:\source\repos\testas9\Debug\testas9.exe

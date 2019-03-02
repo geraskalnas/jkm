@@ -1,0 +1,3 @@
+﻿  Source.cpp
+z:\source\repos\nd\3\source.cpp(57): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  3.vcxproj -> Z:\source\repos\nd\3\Debug\3.exe

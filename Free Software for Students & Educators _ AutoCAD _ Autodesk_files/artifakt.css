@@ -1,0 +1,171 @@
+/*  Name-agnostic definitions.
+ *  These definitions are just a copy of the definitions further below given a generic name.
+ *  This allows publishers to make a reference to "the page's default font" without having to
+ *  update hundreds of custom pages/styles to match the new name.
+ */
+
+    @font-face{
+        font-family:'ADSK-Default';
+            src:url('fontfiles/artifakt-element-light.eot?#iefix');
+            src:url('fontfiles/artifakt-element-light.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-element-light.woff2') format('woff2'),
+            url('fontfiles/artifakt-element-light.woff') format('woff'),
+            url('fontfiles/artifakt-element-light.ttf') format('truetype'),
+            url('fontfiles/artifakt-element-light.svg#ArtifaktElementLight') format('svg');
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    @font-face{
+        font-family:'ADSK-Default';
+            src:url('fontfiles/artifakt-element-regular.eot?#iefix');
+            src:url('fontfiles/artifakt-element-regular.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-element-regular.woff2') format('woff2'),
+            url('fontfiles/artifakt-element-regular.woff') format('woff'),
+            url('fontfiles/artifakt-element-regular.ttf') format('truetype'),
+            url('fontfiles/artifakt-element-regular.svg#ArtifaktElementRegular') format('svg');
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    @font-face{
+        font-family:'ADSK-Default';
+            src:url('fontfiles/artifakt-element-medium.eot?#iefix');
+            src:url('fontfiles/artifakt-element-medium.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-element-medium.woff2') format('woff2'),
+            url('fontfiles/artifakt-element-medium.woff') format('woff'),
+            url('fontfiles/artifakt-element-medium.ttf') format('truetype'),
+            url('fontfiles/artifakt-element-medium.svg#ArtifaktElementMedium') format('svg');
+        font-style: normal;
+        font-weight: 700;
+    }
+
+
+/*  Generic "Artifakt" definitions.
+ *  An attempt will be made to map styles to appropriate font-faces when these are used.
+ *  See the definitions below if you wish to use a specific font.
+ */
+
+    @font-face{
+        font-family:'Artifakt';
+            src:url('fontfiles/artifakt-element-light.eot?#iefix');
+            src:url('fontfiles/artifakt-element-light.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-element-light.woff2') format('woff2'),
+            url('fontfiles/artifakt-element-light.woff') format('woff'),
+            url('fontfiles/artifakt-element-light.ttf') format('truetype'),
+            url('fontfiles/artifakt-element-light.svg#ArtifaktElementLight') format('svg');
+        font-style: normal;
+        font-weight: 300;
+    }
+
+    @font-face{
+        font-family:'Artifakt';
+            src:url('fontfiles/artifakt-element-regular.eot?#iefix');
+            src:url('fontfiles/artifakt-element-regular.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-element-regular.woff2') format('woff2'),
+            url('fontfiles/artifakt-element-regular.woff') format('woff'),
+            url('fontfiles/artifakt-element-regular.ttf') format('truetype'),
+            url('fontfiles/artifakt-element-regular.svg#ArtifaktElementRegular') format('svg');
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    @font-face{
+        font-family:'Artifakt';
+            src:url('fontfiles/artifakt-element-medium.eot?#iefix');
+            src:url('fontfiles/artifakt-element-medium.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-element-medium.woff2') format('woff2'),
+            url('fontfiles/artifakt-element-medium.woff') format('woff'),
+            url('fontfiles/artifakt-element-medium.ttf') format('truetype'),
+            url('fontfiles/artifakt-element-medium.svg#ArtifaktElementMedium') format('svg');
+        font-style: normal;
+        font-weight: 700;
+    }
+
+
+/*  "Artifakt Legend" definitions.
+ *   These definitions are for the "Artifakt Legend" series of font faces.
+ */
+
+    @font-face{
+        font-family:'Artifakt Legend';
+            src:url('fontfiles/artifakt-legend-light.eot?#iefix');
+            src:url('fontfiles/artifakt-legend-light.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-legend-light.woff2') format('woff2'),
+            url('fontfiles/artifakt-legend-light.woff') format('woff'),
+            url('fontfiles/artifakt-legend-light.ttf') format('truetype'),
+            url('fontfiles/artifakt-legend-light.svg#ArtifaktLegendLight') format('svg');
+        font-weight: 300;
+    }
+
+    @font-face{
+        font-family:'Artifakt Legend';
+            src:url('fontfiles/artifakt-legend-regular.eot?#iefix');
+            src:url('fontfiles/artifakt-legend-regular.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-legend-regular.woff2') format('woff2'),
+            url('fontfiles/artifakt-legend-regular.woff') format('woff'),
+            url('fontfiles/artifakt-legend-regular.ttf') format('truetype'),
+            url('fontfiles/artifakt-legend-regular.svg#ArtifaktLegendRegular') format('svg');
+        font-weight: 400;
+    }
+
+    @font-face{
+        font-family:'Artifakt Legend';
+            src:url('fontfiles/artifakt-legend-medium.eot?#iefix');
+            src:url('fontfiles/artifakt-legend-medium.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-legend-medium.woff2') format('woff2'),
+            url('fontfiles/artifakt-legend-medium.woff') format('woff'),
+            url('fontfiles/artifakt-legend-medium.ttf') format('truetype'),
+            url('fontfiles/artifakt-legend-medium.svg#ArtifaktLegendMedium') format('svg');
+        font-weight: 700;
+    }
+
+
+/*  "Artifakt Element" definitions.
+ *   These definitions are for the "Artifakt Element" series of font faces.
+ */
+
+    @font-face{
+        font-family:'Artifakt Element';
+            src:url('fontfiles/artifakt-element-light.eot?#iefix');
+            src:url('fontfiles/artifakt-element-light.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-element-light.woff2') format('woff2'),
+            url('fontfiles/artifakt-element-light.woff') format('woff'),
+            url('fontfiles/artifakt-element-light.ttf') format('truetype'),
+            url('fontfiles/artifakt-element-light.svg#ArtifaktElementLight') format('svg');
+        font-weight: 300;
+    }
+
+    @font-face{
+        font-family:'Artifakt Element';
+            src:url('fontfiles/artifakt-element-regular.eot?#iefix');
+            src:url('fontfiles/artifakt-element-regular.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-element-regular.woff2') format('woff2'),
+            url('fontfiles/artifakt-element-regular.woff') format('woff'),
+            url('fontfiles/artifakt-element-regular.ttf') format('truetype'),
+            url('fontfiles/artifakt-element-regular.svg#ArtifaktElementRegular') format('svg');
+        font-weight: 400;
+    }
+
+    @font-face{
+        font-family:'Artifakt Element';
+            src:url('fontfiles/artifakt-element-medium.eot?#iefix');
+            src:url('fontfiles/artifakt-element-medium.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-element-medium.woff2') format('woff2'),
+            url('fontfiles/artifakt-element-medium.woff') format('woff'),
+            url('fontfiles/artifakt-element-medium.ttf') format('truetype'),
+            url('fontfiles/artifakt-element-medium.svg#ArtifaktElementMedium') format('svg');
+        font-weight: 700;
+    }
+
+    @font-face{
+        font-family:'Artifakt Element';
+            src:url('fontfiles/artifakt-element-italic.eot?#iefix');
+            src:url('fontfiles/artifakt-element-italic.eot?#iefix') format('eot'),
+            url('fontfiles/artifakt-element-italic.woff2') format('woff2'),
+            url('fontfiles/artifakt-element-italic.woff') format('woff'),
+            url('fontfiles/artifakt-element-italic.ttf') format('truetype'),
+            url('fontfiles/artifakt-element-italic.svg#ArtifaktElementItalic') format('svg');
+        font-style: italic;
+        font-weight: 400;
+    }

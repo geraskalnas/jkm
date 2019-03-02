@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vampyro skaiciai", "Vampyro skaiciai\Vampyro skaiciai.vcxproj", "{1699F39D-E783-413A-B2D2-600C086692AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1699F39D-E783-413A-B2D2-600C086692AF}.Debug|x64.ActiveCfg = Debug|x64
+		{1699F39D-E783-413A-B2D2-600C086692AF}.Debug|x64.Build.0 = Debug|x64
+		{1699F39D-E783-413A-B2D2-600C086692AF}.Debug|x86.ActiveCfg = Debug|Win32
+		{1699F39D-E783-413A-B2D2-600C086692AF}.Debug|x86.Build.0 = Debug|Win32
+		{1699F39D-E783-413A-B2D2-600C086692AF}.Release|x64.ActiveCfg = Release|x64
+		{1699F39D-E783-413A-B2D2-600C086692AF}.Release|x64.Build.0 = Release|x64
+		{1699F39D-E783-413A-B2D2-600C086692AF}.Release|x86.ActiveCfg = Release|Win32
+		{1699F39D-E783-413A-B2D2-600C086692AF}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C5738F5-E594-453E-9A43-5ECB881E2E3B}
+	EndGlobalSection
+EndGlobal
