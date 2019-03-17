@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+/* ==========================================================================
+   PRODUCT CENTER THEMES for responsive dotcom
+
+   .pc-01 - Cloud platforms
+   .pc-02 - Project view & plan
+   .pc-03 - Data management
+   .pc-04 - Digital content creation
+   .pc-05 - Creative finishing
+   .pc-06 - Surface, sculpt, paint, sketch
+   .pc-07 - AutoCAD
+   .pc-08 - Inventor
+   .pc-09 - Infrastructure & map
+   .pc-10 - Revit
+   .pc-11 - Fabrication
+   .pc-12 - Simulation
+   .pc-13 - 360
+
+   ========================================================================== */
+svg.pc-brand path, svg.pc-brand circle, svg.pc-brand polygon, svg.pc-brand text, svg.pc-brand rect {
+	fill: #0696d7;
+}
+.pc-02 svg.pc-brand path, .pc-02 svg.pc-brand circle, .pc-02 svg.pc-brand polygon, .pc-02 svg.pc-brand text, .pc-02 svg.pc-brand rect {
+	fill: #009944;
+}
+.pc-03 svg.pc-brand path, .pc-03 svg.pc-brand circle, .pc-03 svg.pc-brand polygon, .pc-03 svg.pc-brand text, .pc-03 svg.pc-brand rect {
+	fill: #008888;
+}
+.pc-04 svg.pc-brand path, .pc-04 svg.pc-brand circle, .pc-04 svg.pc-brand polygon, .pc-04 svg.pc-brand text, .pc-04 svg.pc-brand rect {
+	fill: #00AAAA;
+}
+.pc-05 svg.pc-brand path, .pc-05 svg.pc-brand circle, .pc-05 svg.pc-brand polygon, .pc-05 svg.pc-brand text, .pc-05 svg.pc-brand rect {
+	fill: #88BB33;
+}
+.pc-06 svg.pc-brand path, .pc-06 svg.pc-brand circle, .pc-06 svg.pc-brand polygon, .pc-06 svg.pc-brand text, .pc-06 svg.pc-brand rect {
+	fill: #EE5522;
+}
+.pc-07 svg.pc-brand path, .pc-07 svg.pc-brand circle, .pc-07 svg.pc-brand polygon, .pc-07 svg.pc-brand text, .pc-07 svg.pc-brand rect {
+	fill: #DD2222;
+}
+.pc-08 svg.pc-brand path, .pc-08 svg.pc-brand circle, .pc-08 svg.pc-brand polygon, .pc-08 svg.pc-brand text, .pc-08 svg.pc-brand rect {
+	fill: #EE8822;
+}
+.pc-09 svg.pc-brand path, .pc-09 svg.pc-brand circle, .pc-09 svg.pc-brand polygon, .pc-09 svg.pc-brand text, .pc-09 svg.pc-brand rect {
+	fill: #2288CC;
+}
+.pc-10 svg.pc-brand path, .pc-10 svg.pc-brand circle, .pc-10 svg.pc-brand polygon, .pc-10 svg.pc-brand text, .pc-10 svg.pc-brand rect {
+	fill: #1155AA;
+}
+.pc-11 svg.pc-brand path, .pc-11 svg.pc-brand circle, .pc-11 svg.pc-brand polygon, .pc-11 svg.pc-brand text, .pc-11 svg.pc-brand rect {
+	fill: #DD4422;
+}
+.pc-12 svg.pc-brand path, .pc-12 svg.pc-brand circle, .pc-12 svg.pc-brand polygon, .pc-12 svg.pc-brand text, .pc-12 svg.pc-brand rect {
+	fill: #FFAA11;
+}
+.pc-13 svg.pc-brand path, .pc-13 svg.pc-brand circle, .pc-13 svg.pc-brand polygon, .pc-13 svg.pc-brand text, .pc-13 svg.pc-brand rect {
+	fill: #3566CC;
+}
+/* SMALL BP / DEFAULT */
+
+.btn-brand {
+  display: block;
+  width: 100%;
+  overflow: auto;
+  border: none !important;
+  color: #fff !important;
+  padding: 5px 10px;
+}
+
+.btn-brand > span {
+  width: 100%;
+  display: block;
+  border-top: 1px solid #fff;
+  padding-top: 5px;
+  margin-top: 2px;
+}
+
+.btn-brand > span:after {
+  font-family: 'Autodesk-Icon-Font';
+  content: "\e615";
+  vertical-align: middle;
+  float: right;
+  margin-left: 0;
+}
+
+.pc-01 .btn-brand {
+  background-color: #882233;
+}
+.pc-02 .btn-brand {
+  background-color: #009944;
+}
+.pc-03 .btn-brand {
+  background-color: #008888;
+}
+.pc-04 .btn-brand {
+  background-color: #00AAAA;
+}
+.pc-05 .btn-brand {
+  background-color: #88BB33;
+}
+.pc-06 .btn-brand {
+  background-color: #EE5522;
+}
+.pc-07 .btn-brand {
+  background-color: #DD2222;
+}
+.pc-08 .btn-brand {
+  background-color: #EE8822;
+}
+.pc-09 .btn-brand {
+  background-color: #2288CC;
+}
+.pc-10 .btn-brand {
+  background-color: #1155AA;
+}
+.pc-11 .btn-brand {
+  background-color: #DD4422;
+}
+.pc-12 .btn-brand {
+  background-color: #FFAA11;
+}
+.pc-13 .btn-brand {
+  background-color: #3566CC;
+}
+
+/* MEDIUM BP - inherits SM styles, and overwrites with the below */
+/* These styles also apply for the LARGE BP */
+
+@media only screen and (min-width:40.063em){
+  .btn-brand > span { 
+    width: auto;
+    float: right;
+    border-left: 1px solid #fff;
+    border-top: none;
+    padding-left: 10px;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  .btn-brand > span:after {
+    float: none;
+    margin-left: 5px;
+  }
+}
