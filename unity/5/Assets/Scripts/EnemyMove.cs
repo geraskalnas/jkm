@@ -36,10 +36,10 @@ public class EnemyMove : MonoBehaviour {
 			moveRight = !moveRight;
 
 		if (moveRight) {
-			transform.localScale = new Vector3 (0.4f, 0.4f, 0.4f);
+			transform.localScale = new Vector3 (1.5f, 1.5f, 1.5f);
 			this.GetComponent<Rigidbody2D> ().velocity = new Vector2 (speed, this.GetComponent<Rigidbody2D> ().velocity.y);
 		} else {
-			transform.localScale = new Vector3 (-0.4f, 0.4f, 0.4f);
+			transform.localScale = new Vector3 (-1.5f, 1.5f, 1.5f);
 			this.GetComponent<Rigidbody2D> ().velocity = new Vector2 (-speed, this.GetComponent<Rigidbody2D> ().velocity.y);
 		}
 	}

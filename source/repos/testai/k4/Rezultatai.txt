@@ -1,0 +1,11 @@
+x    y
+0    0
+4    0
+4    2
+0    2
+Ilgis:
+4
+Plotis:
+2
+Plotas:
+8

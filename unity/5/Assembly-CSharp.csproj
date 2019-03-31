@@ -52,11 +52,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\2D ToonBear\Demo\Scripts\bearController.cs" />
+     <Compile Include="Assets\Scripts\AttackHit.cs" />
      <Compile Include="Assets\Scripts\BarScript.cs" />
+     <Compile Include="Assets\Scripts\EnemyHealth.cs" />
      <Compile Include="Assets\Scripts\EnemyMove.cs" />
      <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\QuitOnClick.cs" />
+     <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\Stat.cs" />
      <Compile Include="Assets\UI\Scripts\ActiveStateToggler.cs" />
      <Compile Include="Assets\UI\Scripts\ApplicationManager.cs" />

@@ -57,7 +57,7 @@ public class Player : MonoBehaviour {
 		if (myRigidbody.velocity.y < 0) {
 			anim.SetBool ("land", true);
 		}
-		//myRigidbody.velocity = new Vector2 (horizontal * speed, myRigidbody.velocity.y);
+		myRigidbody.velocity = new Vector2 (horizontal * speed, myRigidbody.velocity.y);
 		anim.SetFloat ("speed", Mathf.Abs (horizontal));
 		if (Input.GetKeyDown (KeyCode.Space) && grounded) {
 			Jump ();
