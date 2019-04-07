@@ -1,0 +1,4 @@
+﻿  main.cpp
+z:\source\repos\egz\1\main.cpp(46): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+z:\source\repos\egz\1\main.cpp(68): warning C4715: 'ketvirtis': not all control paths return a value
+  1.vcxproj -> Z:\source\repos\EGZ\Debug\1.exe
